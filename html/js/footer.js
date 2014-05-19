@@ -1,0 +1,1 @@
+document.write("<div id=footer>Copyright 2012 DOWNTOWN - Hansjörg Liniger. Am Gulmenbach 4. CH-8820 Waedenswil. Tel.: +41 79 244 3739  /// Website powered by <a href=\" http://gridfusion.net\" target=_blank>GridFusion Software Solutions</a></div>");

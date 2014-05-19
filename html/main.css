@@ -1,0 +1,355 @@
+@CHARSET "UTF-8";
+
+
+body {
+background-color: #000000;
+margin: 0;
+padding: 0 0 20px;
+min-height: 100%;
+font-family: "lucida grande","calibri";
+font-size: 10px;
+}
+
+
+#supercontainer p {
+	font-size: 13px;
+}
+
+
+
+#container {
+	background: url("./images/downtown_main_background.jpg");
+    width: 960px;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*background: white;*/
+}
+
+
+#bannercontent {
+	color: white;
+	float: left;
+	position: relative;
+	width: 960px;
+	height: 160px;
+	margin-top: 0px;
+	font-size: 60px;
+}
+
+
+#content {
+	width: 960px;
+	height: 800px;
+	position: relative;
+	font-size: 13px;
+}
+
+#homecontainer
+{
+	width: 960px;
+	height:650px;
+	/*background: url("./images/concert crowd.jpg");*/
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    overflow: hidden;  
+}
+
+#emptyContainer
+{
+	height: 450px;
+}
+
+#homepageContainer
+{
+	font-family: 'Michroma', sans-serif;	
+	color: white;
+	font-size: 17px;
+	width: 80%;
+	margin: 0 auto;
+	/*background:rgba(192,192,192,0.3);*/
+	border-radius: 5px; 
+	padding: 15px;
+
+
+}
+
+#supercontainer
+{
+	font-family: 'Michroma', sans-serif;	
+	float: right;
+	background:rgba(192,192,192,0.65);
+	color: black;
+	padding: 15px;
+	width: 65%;
+	height: 85%;
+ 	margin-right: 30px;
+	margin-top: 20px;
+	border-radius: 0px; 
+	overflow :auto;
+}
+
+#supercontainer img
+{
+	/*float: left;*/
+	margin-right: 10px;
+	margin-bottom:0px;
+	border: 3px solid white;
+}
+
+
+#supercontainer .portraitPicture img
+{
+	float: left;
+	margin-right: 10px;
+	margin-bottom:0px;
+	border: 3px solid white;
+	z-index: 1;
+}
+
+
+
+#supercontainer .groupPicture img
+{
+	/*display: block;*/
+	margin-right: 10px;
+	margin-bottom:0px;
+	border: 3px solid white;
+}
+
+#supercontainer .yoxview img
+{
+	float:left;	
+	margin-right: 10px;
+	margin-bottom:0px;
+	border: 3px solid white;
+}
+
+
+
+
+#footer {
+	width: 960px;
+    height: 25px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    background: black;
+
+}
+
+
+#accordion .accordionText
+{
+	font-size: 11px;
+}
+
+
+#videocontainer
+{
+	margin-top: 10px;
+	height: 150px;
+}
+
+
+.video
+{
+	margin-left: 5px;
+	float: left;
+}
+
+
+
+
+.yoxview
+{
+	margin-top: 50px;
+	/*display: block;*/
+}
+
+.yoxview img
+{
+	width: 100px;
+	height:67px;
+	margin-top: 5px;
+}
+
+
+#soundcontainer embed
+{
+}
+
+
+
+
+
+#bannersubline {
+	position: relative;
+	width: 860px;
+	height: 40px;
+	font-size: 20px;
+	/*font-family: 'Averia Serif Libre', cursive;*/
+}
+
+
+
+
+.imgmember
+{
+	opacity:0.6;
+}
+
+.imgmember:hover
+{
+	opacity:1.0;
+}
+
+.imgbio
+{
+	border-radius: 25px;
+}
+
+.imgbio1
+{
+	border-radius: 25px;
+}
+
+.bandpic
+{
+	width: 100%;
+	height: 70%;
+}
+
+
+#footer1{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	padding-left: 3px;	
+	font-size: 8px;
+	width: 955px;
+	height: 10px;
+	border: 1px solid #aaaaaa;
+	border-radius: 5px;
+	
+}
+
+#social{
+	width: 960px;
+	height: 30px;
+    margin: 0 auto;
+
+
+}
+
+
+
+
+/* The tab itself */
+ 
+#followTab {
+ 
+  /* No bullets */
+  list-style: none;
+ 
+  /* Position and float the tab */ 
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 130px;
+   
+  /* Give the tab width and padding */
+  width: 24px;
+  padding: 8px 5px;
+   
+  /* Add the curved white border */
+  border: 3px solid #fff;
+  border-right: none;
+  -moz-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+   
+  /* Add the drop shadow */
+  -moz-box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+   
+  /* Add the semitransparent gradient background */
+  background: rgba(239, 91, 10, .75);
+  background: -moz-linear-gradient(top, rgba(255, 255, 0, .75), rgba(255, 255, 0, .75));
+  background: -webkit-gradient( linear, left top, left bottom, from( rgba(243, 52, 8, .75) ), to( rgba(239, 91, 10, .75) ) );
+  background: linear-gradient(top, rgba(243, 52, 8, .75), rgba(239, 91, 10, .75));
+  filter: progid:DXImageTransform.Microsoft.Gradient( startColorStr='#c0f33408', endColorStr='#c0ef5b0a', GradientType=0 );
+}
+
+
+
+/* Items within the tab */
+ 
+#followTab li {
+  margin: 9px 0 0 0;
+  line-height: 0;
+}
+ 
+#followTab li:first-child {
+  margin-top: 0;
+}
+ 
+/* General style for buttons within the tab */
+ 
+#followTab a {
+  display: block;
+  width: 24px;
+  background-image: url("images/follow-tab-buttons.png");
+}
+ 
+#followTab a span {
+  position: absolute;
+  top: -999em;
+}
+
+
+/* "Newsletter" button */
+ 
+#followTab a.email {
+  height: 16px;
+  background-position: 0 0;
+}
+ 
+#followTab a.email:hover {
+  background-position: 0 -16px;
+}
+ 
+/* "RSS" button */
+ 
+#followTab a.rss {
+  height: 24px;
+  background-position: 0 -32px;
+}
+ 
+#followTab a.rss:hover {
+  background-position: 0 -56px;
+}
+ 
+/* "Twitter" button */
+ 
+#followTab a.twitter {
+  height: 15px;
+  background-position: 0 -80px;
+}
+ 
+#followTab a.twitter:hover {
+  background-position: 0 -95px;
+}
+ 
+/* "Facebook" button */
+ 
+#followTab a.facebook {
+  height: 24px;
+  background-position: 0 -110px;
+}
+ 
+#followTab a.facebook:hover {
+  background-position: 0 -134px;
+}
