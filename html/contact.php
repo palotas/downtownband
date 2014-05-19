@@ -81,12 +81,12 @@
 		<p>Kontaktieren Sie uns <a href="mailto:info@downtownband.ch?subject=Kontaktanfrage&body=Ihre Nachricht an uns:">hier</a> 
 			oder senden Sie ein Email an <b>info@downtownband.ch</b><br />Unseren Presseflyer können Sie hier herunterladen:</p>
 			<a href="./flyer.pdf"><img src="./images/pdficon.jpeg" width="50" height="50"/></a>
-		<p>Sie können uns auch gerne unter <b>079 2443739</b> anrufen.</p>
+		<p>Sie können uns auch gerne unter <b>079 6690708</b> anrufen.</p>
 		<p>Copyright 2012 DOWNTOWN PARTY BAND<br />
 
 			Verantwortlich für den Inhalt: 
-			<br />Hansjörg Liniger. Am Gulmenbach 4. CH-8820 Waedenswil. 
-			<br />Tel.: +41 79 244 3739 
+			<br />Michael Palotas. Gerbiweg 2. CH-8853 Lachen, Schweiz.
+			<br />Tel.: +41 79 6690708
 			<br />email: info@downtownband.ch
 		</p>
 
